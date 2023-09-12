@@ -4,7 +4,7 @@ interface TextInputFieldProps {
   name: string;
   value: string | number;
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-  error?: boolean;
+  error?: boolean | any;
   label?: string;
   required?: boolean;
   placeholder?: string;
